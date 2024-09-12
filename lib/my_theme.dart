@@ -25,6 +25,16 @@ class MyThemeData {
         fontSize: 20,
         fontWeight: FontWeight.bold,
       ),
+      subtitle1: TextStyle(
+        color: greyColor,
+        fontSize: 22,
+        fontWeight: FontWeight.bold,
+      ),
+      subtitle2: TextStyle(
+        color: whiteColor,
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+      ),
     ),
     appBarTheme: AppBarTheme(
       backgroundColor: primaryLightColor,
