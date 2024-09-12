@@ -20,6 +20,11 @@ class MyThemeData {
         fontSize: 22,
         fontWeight: FontWeight.bold,
       ),
+      headline2: TextStyle(
+        color: blackColor,
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+      ),
     ),
     appBarTheme: AppBarTheme(
       backgroundColor: primaryLightColor,

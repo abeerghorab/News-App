@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:newsapp/drawer/Home_drawer.dart';
+import 'package:newsapp/home/category/category_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   static const String routeName = "homeScreen";
@@ -12,6 +14,10 @@ class HomeScreen extends StatelessWidget {
           style: Theme.of(context).textTheme.headline1,
         ),
       ),
+      drawer: Drawer(
+        child: HomeDrawer(),
+      ),
+      body: CategoryWidget(),
     );
   }
 }
